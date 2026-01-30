@@ -5,6 +5,11 @@ return {
     opts = require "configs.conform",
   },
 
+  -- TODO: bad formatting
+  {
+    "hrsh7th/nvim-cmp",
+  },
+
   -- These are some examples, uncomment them if you want to see them work!
   {
     "neovim/nvim-lspconfig",
