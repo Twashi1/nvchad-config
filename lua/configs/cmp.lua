@@ -5,12 +5,11 @@ cmp.setup {
     expand = function(_) end,
   },
   mapping = {
-    ["<Tab>"] = cmp.mapping(function(_)
+    ["<Tab>"] = cmp.mapping(function(fallback)
       if cmp.visible() then
         cmp.confirm { select = true }
       else
-        cmp.complete()
-        cmp.confirm { select = true }
+        fallback()
       end
     end, { "i", "s" }),
     ["<CR>"] = cmp.config.disable,
