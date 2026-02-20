@@ -93,6 +93,7 @@ return {
         "cpp",
         "kotlin",
         "java",
+        "python",
       },
     },
   },
