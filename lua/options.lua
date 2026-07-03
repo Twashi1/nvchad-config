@@ -8,3 +8,6 @@ require "nvchad.options"
 vim.wo.number = true
 vim.wo.relativenumber = true
 vim.wo.signcolumn = "number"
+
+vim.opt.clipboard = "unnamedplus"
+vim.opt.equalalways = false
