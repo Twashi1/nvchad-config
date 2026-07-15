@@ -6,9 +6,21 @@ return {
   },
 
   -- TODO: bad formatting
-  {
-    "hrsh7th/nvim-cmp",
-  },
+  -- {
+  --   "hrsh7th/nvim-cmp",
+  -- },
+  --
+  -- {
+  --   "saadparwaiz1/cmp_luasnip",
+  -- },
+  --
+  -- {
+  --   "L3MON4D3/LuaSnip",
+  --
+  --   dependencies = {
+  --     "saadparwaiz1/cmp_luasnip",
+  --   },
+  -- },
 
   -- These are some examples, uncomment them if you want to see them work!
   {
@@ -99,8 +111,7 @@ return {
     },
   },
 
-  -- test new blink
-  -- { import = "nvchad.blink.lazyspec" },
+  { import = "nvchad.blink.lazyspec" },
 
   {
     "nvim-treesitter/nvim-treesitter",

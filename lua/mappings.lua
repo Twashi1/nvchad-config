@@ -11,5 +11,5 @@ map("i", "jk", "<ESC>")
 
 map("n", "<leader>db", "<cmd> DapToggleBreakpoint <CR>", { desc = "Toggle breakpoint at line" })
 map("n", "<leader>dr", "<cmd> DapContinue <CR>", { desc = "Start or continue debugger" })
-map("n", "<F10>", "<cmd> DapStepOver <CR>", { desc = "Step over" })
-map("n", "<F11>", "<cmd> DapStepInto <CR>", { desc = "Step into" })
+map("n", "F10", "<cmd> DapStepOver <CR>", { desc = "Step over" })
+map("n", "F11", "<cmd> DapStepInto <CR>", { desc = "Step into" })
