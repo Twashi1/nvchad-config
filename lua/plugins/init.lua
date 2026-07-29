@@ -4,25 +4,6 @@ return {
     event = "BufWritePre", -- uncomment for format on save
     opts = require "configs.conform",
   },
-
-  -- TODO: bad formatting
-  -- {
-  --   "hrsh7th/nvim-cmp",
-  -- },
-  --
-  -- {
-  --   "saadparwaiz1/cmp_luasnip",
-  -- },
-  --
-  -- {
-  --   "L3MON4D3/LuaSnip",
-  --
-  --   dependencies = {
-  --     "saadparwaiz1/cmp_luasnip",
-  --   },
-  -- },
-
-  -- These are some examples, uncomment them if you want to see them work!
   {
     "neovim/nvim-lspconfig",
     config = function()
@@ -129,5 +110,13 @@ return {
         "python",
       },
     },
+  },
+
+  {
+    "supermaven-inc/supermaven-nvim",
+    event = "InsertEnter",
+    config = function()
+      require("supermaven-nvim").setup {}
+    end,
   },
 }
