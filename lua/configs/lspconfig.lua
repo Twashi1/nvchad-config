@@ -1,6 +1,6 @@
 require("nvchad.configs.lspconfig").defaults()
 
-local servers = { "html", "cssls", "kotlin-lsp", "clangd", "pyright" }
+local servers = { "html", "cssls", "kotlin-lsp", "clangd", "pyright", "golangci-lint-langserver" }
 vim.lsp.enable(servers)
 
 local capabilities = require("blink.cmp").get_lsp_capabilities()

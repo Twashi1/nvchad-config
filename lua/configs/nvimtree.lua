@@ -10,6 +10,10 @@ return {
     ignore = false,
   },
   view = {
+    preserve_window_proportions = false,
     adaptive_size = true,
+    width = {
+      max = -1,
+    },
   },
 }

@@ -10,7 +10,10 @@ return {
       require "configs.lspconfig"
     end,
   },
-
+  {
+    "hrsh7th/nvim-cmp",
+    enabled = false,
+  },
   {
     "rcarriga/nvim-dap-ui",
     event = "VeryLazy",
@@ -108,6 +111,9 @@ return {
         "kotlin",
         "java",
         "python",
+        "go",
+        "rust",
+        "typescript",
       },
     },
   },
